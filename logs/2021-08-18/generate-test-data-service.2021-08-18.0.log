@@ -1,0 +1,7 @@
+2021-08-18 17:44:07,917 INFO (StartupInfoLogger.java:55)- Starting DemoApplicationTests using Java 1.8.0_241 on KJIB4383DUTD11Z with PID 9924 (started by Administrator in F:\demo)
+2021-08-18 17:44:07,924 INFO (SpringApplication.java:624)- No active profile set, falling back to default profiles: default
+2021-08-18 17:45:26,062 INFO (PropertySourcedRequestMappingHandlerMapping.java:69)- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18 17:45:42,980 INFO (DocumentationPluginsBootstrapper.java:147)- Context refreshed
+2021-08-18 17:45:43,784 INFO (DocumentationPluginsBootstrapper.java:150)- Found 1 custom documentation plugin(s)
+2021-08-18 17:45:44,498 INFO (ApiListingReferenceScanner.java:41)- Scanning for api listing references
+2021-08-18 17:45:47,901 INFO (StartupInfoLogger.java:61)- Started DemoApplicationTests in 106.907 seconds (JVM running for 131.886)

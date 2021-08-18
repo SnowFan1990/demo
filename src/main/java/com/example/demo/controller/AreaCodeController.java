@@ -45,8 +45,8 @@ public class AreaCodeController {
     @ApiOperation(value = "测试增量代码覆盖率", notes = "查询区域信息列表")
     @GetMapping("/cal")
     @ResponseBody
-    public int getNumber(@RequestParam int a, @RequestParam int b) {
-        return a+b;
+    public int getNumber(@RequestParam int a) {
+        return a+1;
     }
 
 }
