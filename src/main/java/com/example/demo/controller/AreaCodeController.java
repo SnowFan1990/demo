@@ -41,5 +41,12 @@ public class AreaCodeController {
     public List<AreaCode> getAreaCodes(@RequestParam String cityCode) {
         return areaCodeService.getAreaCodes(cityCode);
     }
+    
+    @ApiOperation(value = "测试增量代码覆盖率", notes = "查询区域信息列表")
+    @GetMapping("/cal")
+    @ResponseBody
+    public int getNumber(@RequestParam int a, @RequestParam int b) {
+        return a+b;
+    }
 
 }
